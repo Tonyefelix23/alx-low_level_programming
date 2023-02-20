@@ -6,13 +6,17 @@
  */
 int main(void)
 {
-    int i, j;
+    int i
 
-    for (i = 0; i < 10; i++) {
-        printf("%d%s", i, (i == 9) ? "\n" : ", ");
-        for (j = i + 1; j < 10; j++) {
-            printf("%d%s", j, (j == 9) ? "\n" : ", ");
-        }
+	    for (i = 0; i < 100; i++)
+	    {
+		    putchar(i + '0');
+    if (i < 99)
+    {
+	    putchar(',');
+	    putchar(' ');
     }
+	    }
+    putchar('\n');
     return 0;
 }
