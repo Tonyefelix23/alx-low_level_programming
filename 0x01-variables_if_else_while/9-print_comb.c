@@ -4,19 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-    int i
-
-	    for (i = 0; i < 10; i++)
-	    {
-		    putchar(i + '0');
-    if (i < 9)
-    {
-	    putchar(',');
-	    putchar(' ');
+int main(void) {
+    int i, j;
+    for (i = 0; i < 10; i++) {
+        printf("%d%s", i, (i == 9) ? "\n" : ", ");
+        for (j = i + 1; j < 10; j++) {
+            printf("%d%s", j, (j == 9) ? "\n" : ", ");
+        }
     }
-	    }
-    putchar('\n');
     return 0;
 }
