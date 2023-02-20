@@ -7,11 +7,11 @@
 int main(void)
 {
     int i, j;
-    for (i = 0; i < 10; i++)
-    {
-        for (j = i + 1; j < 10; j++)
-	{
-            printf("%d%d%s", i, j, (i == 8 && j == 9) ? "\n" : ", ");
+
+    for (i = 0; i < 10; i++) {
+        printf("%d%s", i, (i == 9) ? "\n" : ", ");
+        for (j = i + 1; j < 10; j++) {
+            printf("%d%s", j, (j == 9 && i == 8) ? "\n" : ", ");
         }
     }
     return 0;
