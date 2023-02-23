@@ -1,0 +1,5 @@
+
+ilphabet_x10.c:12:8: error: ‘i’ is used uninitialized in this function [-Werror=uninitialized]
+   12 |  while (i <= 0)
+      |        ^
+cc1: all warnings being treated as errorsou can only use putchar twice in your code
