@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * cap_string - capitalize all words of a string
- * @str: Te string to be capitalized
+ * @str: The string to be capitalized
  *
  * Return: A pointer to the changed string
  */
@@ -34,4 +34,3 @@ char *cap_string(char *str)
 
 	return (str);
 }
-				
