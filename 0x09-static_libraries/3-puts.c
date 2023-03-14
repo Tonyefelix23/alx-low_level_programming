@@ -7,12 +7,14 @@
 /**
  * main - Entry point
  * _puts - multilingual puzzle
+ * @s: prints a function
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-void _puts(char *str)
+void _puts(char *s)
 {
+	int main(void);
+
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
